@@ -7,8 +7,8 @@ s = int(input("Введите сумму чисел: "))
 p = int(input("Введите произведение чисел: "))
 
 flag = 1
-for x in range(1, 1000):
-    for y in range(1, 1000):
+for x in range(1, 1001):
+    for y in range(1, 1001):
         if p == x * y and s == x + y:
             print(x, y)
             flag = 0
